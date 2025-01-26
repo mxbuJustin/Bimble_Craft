@@ -1,0 +1,11 @@
+{
+  "item.bimble_craft.bimble_ingot": "Bimble Ingot",
+  "item.bimble_craft.raw_stable_bimble_ore": "Raw stable Bimble Ore",
+  "item.bimble_craft.raw_unstable_bimble_ore": "Raw unstable Bimble Ore",
+
+  "block.bimble_craft.bimble_block": "Bimble Block",
+  "block.bimble_craft.raw_bimble_block": "Raw Bimble Block",
+  "block.bimble_craft.bimble_ore": "Bimble Ore",
+
+  "creativetab.bimble_craft_tab": "Bimble Craft"
+}

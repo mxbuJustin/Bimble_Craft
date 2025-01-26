@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "group": "bimble_ingot",
+  "ingredient": {
+    "item": "bimble_craft:raw_stable_bimble_ore"
+  },
+  "result": "bimble_craft:bimble_ingot"
+}

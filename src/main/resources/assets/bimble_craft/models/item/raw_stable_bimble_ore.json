@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bimble_craft:item/raw_stable_bimble_ore"
+  }
+}

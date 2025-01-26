@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "bimble_craft:bimble_ingot"
+    }
+  },
+  "result": {
+    "item": "bimble_craft:bimble_block"
+  }
+}
