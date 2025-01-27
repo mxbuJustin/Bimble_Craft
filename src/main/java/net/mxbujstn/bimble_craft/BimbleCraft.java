@@ -1,6 +1,5 @@
 package net.mxbujstn.bimble_craft;
 
-import com.google.common.io.Closer;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -24,7 +23,7 @@ public class BimbleCraft
 
     public static final String MODID = "bimble_craft";
 
-    private static final Logger LOGGER = LogUtils.getLogger();
+   // private static final Logger LOGGER = LogUtils.getLogger();
 
     public BimbleCraft(FMLJavaModLoadingContext context)
     {
@@ -34,8 +33,6 @@ public class BimbleCraft
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-        ModBlockEntities.register(modEventBus);
-        ModMenus.register(modEventBus);
 
 
         modEventBus.addListener(this::commonSetup);
@@ -61,12 +58,12 @@ public class BimbleCraft
 
     }
 
-    @SubscribeEvent
+    /* @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
 
     }
-
-    @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+*/
+/*    @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents
     {
         @SubscribeEvent
@@ -75,4 +72,6 @@ public class BimbleCraft
 
         }
     }
+
+ */
 }

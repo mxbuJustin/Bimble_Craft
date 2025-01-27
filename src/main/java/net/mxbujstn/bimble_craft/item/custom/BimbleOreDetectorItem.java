@@ -17,7 +17,6 @@ public class BimbleOreDetectorItem extends Item {
         super(pProperties);
     }
 
-    @Override
     public InteractionResult useOn(UseOnContext pContext) {
         if(!pContext.getLevel().isClientSide()) {
             BlockPos positionCLicked = pContext.getClickedPos();
