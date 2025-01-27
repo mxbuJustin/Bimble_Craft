@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.mxbujstn.bimble_craft.BimbleCraft;
+import net.mxbujstn.bimble_craft.item.custom.BimbleOreDetectorItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -17,6 +18,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_UNSTABLE_BIMBLE_ORE = ITEMS.register("raw_unstable_bimble_ore",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BIMBLE_DETECTOR = ITEMS.register("bimble_dectector",
+            () -> new BimbleOreDetectorItem(new Item.Properties().durability(100)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

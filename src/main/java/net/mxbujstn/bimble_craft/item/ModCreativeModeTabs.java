@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.BIMBLE_INGOT.get());
                         pOutput.accept(ModItems.RAW_STABLE_BIMBLE_ORE.get());
                         pOutput.accept(ModItems.RAW_UNSTABLE_BIMBLE_ORE.get());
+                        pOutput.accept(ModItems.BIMBLE_DETECTOR.get());
 
                         pOutput.accept(ModBlocks.BIMBLE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_BIMBLE_BLOCK.get());
