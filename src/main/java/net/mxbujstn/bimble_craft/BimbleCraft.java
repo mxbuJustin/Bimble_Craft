@@ -15,6 +15,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.mxbujstn.bimble_craft.block.ModBlocks;
 import net.mxbujstn.bimble_craft.item.ModCreativeModeTabs;
 import net.mxbujstn.bimble_craft.item.ModItems;
+import net.mxbujstn.bimble_craft.item.custom.BimbleOreDetectorItem;
 import org.slf4j.Logger;
 
 @Mod(BimbleCraft.MODID)
@@ -58,12 +59,12 @@ public class BimbleCraft
 
     }
 
-    /* @SubscribeEvent
+    @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
 
     }
-*/
-/*    @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+
+    @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents
     {
         @SubscribeEvent
@@ -73,5 +74,4 @@ public class BimbleCraft
         }
     }
 
- */
 }

@@ -22,10 +22,12 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RAW_STABLE_BIMBLE_ORE.get());
                         pOutput.accept(ModItems.RAW_UNSTABLE_BIMBLE_ORE.get());
                         pOutput.accept(ModItems.BIMBLE_DETECTOR.get());
+                        pOutput.accept(ModItems.BIMBLE_APPLE.get());
 
                         pOutput.accept(ModBlocks.BIMBLE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_BIMBLE_BLOCK.get());
                         pOutput.accept(ModBlocks.BIMBLE_ORE.get());
+                        pOutput.accept(ModBlocks.BIMBLE_SOUND_BLOCK.get());
 
                     })
                     .build());

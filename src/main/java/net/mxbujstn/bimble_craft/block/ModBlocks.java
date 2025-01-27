@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.mxbujstn.bimble_craft.BimbleCraft;
+import net.mxbujstn.bimble_craft.block.custom.BimbleSoundBlock;
 import net.mxbujstn.bimble_craft.item.ModItems;
 
 import java.util.function.Supplier;
@@ -25,7 +26,8 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK).strength(40.0F,1000.0F)));
     public static final RegistryObject<Block> BIMBLE_ORE = registerBlock("bimble_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE).strength(40.0F,1000.0F).requiresCorrectToolForDrops()));
-
+    public static final RegistryObject<Block> BIMBLE_SOUND_BLOCK = registerBlock("bimble_sound_block",
+            () -> new BimbleSoundBlock(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK).strength(20.0F,800.0F)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

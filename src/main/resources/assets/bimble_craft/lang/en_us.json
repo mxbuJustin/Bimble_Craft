@@ -3,10 +3,12 @@
   "item.bimble_craft.raw_stable_bimble_ore": "Raw stable Bimble Ore",
   "item.bimble_craft.raw_unstable_bimble_ore": "Raw unstable Bimble Ore",
   "item.bimble_craft.bimble_detector": "Bimble Detector",
+  "item.bimble_craft.bimble_apple": "Bimble Apple",
 
   "block.bimble_craft.bimble_block": "Bimble Block",
   "block.bimble_craft.raw_bimble_block": "Raw Bimble Block",
   "block.bimble_craft.bimble_ore": "Bimble Ore",
+  "block.bimble_craft.bimble_sound_block": "BIMBLES WISDOM",
 
   "creativetab.bimble_craft_tab": "Bimble Craft"
 }

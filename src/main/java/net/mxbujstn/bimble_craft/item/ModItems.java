@@ -20,6 +20,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BIMBLE_DETECTOR = ITEMS.register("bimble_dectector",
             () -> new BimbleOreDetectorItem(new Item.Properties().durability(100)));
+    public static final RegistryObject<Item> BIMBLE_APPLE = ITEMS.register("bimble_apple",
+            () -> new Item(new Item.Properties().food(ModFoods.BIMBLE_APPLE)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

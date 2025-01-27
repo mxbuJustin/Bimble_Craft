@@ -10,6 +10,7 @@ import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
+import net.mxbujstn.bimble_craft.util.ModTags;
 
 public class BimbleOreDetectorItem extends Item {
 
@@ -52,6 +53,6 @@ public class BimbleOreDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.is(Blocks.IRON_ORE) || state.is(Blocks.GOLD_ORE);
+        return state.is(ModTags.Blocks.BIMBLE_DETECTOR_VALUABLES);
     }
 }
