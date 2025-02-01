@@ -22,8 +22,10 @@ public class BimbleSoundBlock extends Block {
     public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos,
                                  Player pPlayer, InteractionHand pHand, BlockHitResult pHit) {
 
-        pLevel.playSound(pPlayer, pPos, SoundEvents.NOTE_BLOCK_IMITATE_ENDER_DRAGON.get(), SoundSource.BLOCKS,
+        pLevel.playSound(pPlayer, pPos, SoundEvents.NOTE_BLOCK_IMITATE_CREEPER.get(), SoundSource.BLOCKS,
                 1.0F, 1.0F);
+        pLevel.getSkyDarken();
+        pLevel.getRandom().nextFloat();
 
         return InteractionResult.SUCCESS;
     }
