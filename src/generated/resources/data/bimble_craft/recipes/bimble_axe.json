@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "bimble_craft:bimble_ingot"
+    },
+    "N": {
+      "item": "bimble_craft:netherite_stick"
+    }
+  },
+  "pattern": [
+    " BB",
+    " NB",
+    " N "
+  ],
+  "result": {
+    "item": "bimble_craft:bimble_axe"
+  },
+  "show_notification": true
+}

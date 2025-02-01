@@ -1,0 +1,5 @@
+// 1.20.1	2025-02-01T17:51:21.4996061	Loot Tables
+8e16832e1790ec11a01e3d4ca8b9805a05e0c33b data/bimble_craft/loot_tables/blocks/bimble_block.json
+cc6ccd96798758aeda87bfdeafcedf0ecd202698 data/bimble_craft/loot_tables/blocks/bimble_ore.json
+7cc8f78227a82e4aad61c2919f8f4b5d83e0eaea data/bimble_craft/loot_tables/blocks/bimble_sound_block.json
+2609085b4ee8557d0286509170e1d7aac7052c28 data/bimble_craft/loot_tables/blocks/raw_bimble_block.json

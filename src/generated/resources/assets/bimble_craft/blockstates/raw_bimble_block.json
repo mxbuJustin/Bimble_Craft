@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bimble_craft:block/raw_bimble_block"
+    }
+  }
+}
