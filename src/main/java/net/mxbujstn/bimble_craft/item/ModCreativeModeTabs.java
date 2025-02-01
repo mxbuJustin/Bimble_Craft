@@ -23,6 +23,19 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RAW_UNSTABLE_BIMBLE_ORE.get());
                         pOutput.accept(ModItems.BIMBLE_DETECTOR.get());
                         pOutput.accept(ModItems.BIMBLE_APPLE.get());
+                        pOutput.accept(ModItems.NETHERITE_STICK.get());
+
+                        pOutput.accept(ModItems.BIMBLE_GUN.get());
+                        pOutput.accept(ModItems.BIMBLE_SWORD.get());
+                        pOutput.accept(ModItems.BIMBLE_Pickaxe.get());
+                        pOutput.accept(ModItems.BIMBLE_AXE.get());
+                        pOutput.accept(ModItems.BIMBLE_SHOVEL.get());
+                        pOutput.accept(ModItems.BIMBLE_HOE.get());
+
+                        pOutput.accept(ModItems.BIMBLE_HELMET.get());
+                        pOutput.accept(ModItems.BIMBLE_CHESTPLATE.get());
+                        pOutput.accept(ModItems.BIMBLE_LEGGINGS.get());
+                        pOutput.accept(ModItems.BIMBLE_BOOTS.get());
 
                         pOutput.accept(ModBlocks.BIMBLE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_BIMBLE_BLOCK.get());

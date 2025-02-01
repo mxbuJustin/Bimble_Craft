@@ -11,6 +11,7 @@ import net.mxbujstn.bimble_craft.BimbleCraft;
 public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> BIMBLE_DETECTOR_VALUABLES = tag("bimble_detector_valuables");
+        public static final TagKey<Block> NEEDS_BIMBLE_TOOL = tag("needs_bimble_tool");
 
 
         private static TagKey<Block> tag(String name){

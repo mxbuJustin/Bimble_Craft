@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "bimble_craft:item/bimble_gun_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "bimble_craft:item/bimble_gun_3d"
+    },
+    "ground": {
+      "parent": "bimble_craft:item/bimble_gun_3d"
+    },
+    "fixed": {
+      "parent": "bimble_craft:item/bimble_gun_3d"
+    }
+  }
+}
