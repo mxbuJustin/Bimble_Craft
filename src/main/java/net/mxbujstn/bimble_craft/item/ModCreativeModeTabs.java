@@ -31,6 +31,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.BIMBLE_AXE.get());
                         pOutput.accept(ModItems.BIMBLE_SHOVEL.get());
                         pOutput.accept(ModItems.BIMBLE_HOE.get());
+                        pOutput.accept(ModItems.BIMBLE_SCYTHE.get());
 
                         pOutput.accept(ModItems.BIMBLE_HELMET.get());
                         pOutput.accept(ModItems.BIMBLE_CHESTPLATE.get());
@@ -41,6 +42,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.RAW_BIMBLE_BLOCK.get());
                         pOutput.accept(ModBlocks.BIMBLE_ORE.get());
                         pOutput.accept(ModBlocks.BIMBLE_SOUND_BLOCK.get());
+                        pOutput.accept(ModBlocks.STABILZER.get());
 
                     })
                     .build());

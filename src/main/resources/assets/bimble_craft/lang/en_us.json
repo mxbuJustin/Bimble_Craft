@@ -12,6 +12,7 @@
   "item.bimble_craft.bimble_shovel": "Bimble Shovel",
   "item.bimble_craft.bimble_axe": "Bimble Axe",
   "item.bimble_craft.bimble_hoe": "Bimble Hoe",
+  "item.bimble_craft.bimble_scythe": "Bimble Scythe",
 
   "item.bimble_craft.bimble_chestplate": "Bimble Chestplate",
   "item.bimble_craft.bimble_helmet": "Bimble Helmet",
@@ -22,6 +23,7 @@
   "block.bimble_craft.raw_bimble_block": "Raw Bimble Block",
   "block.bimble_craft.bimble_ore": "Bimble Ore",
   "block.bimble_craft.bimble_sound_block": "BIMBLES WISDOM",
+  "block.bimble_craft.stabilizer": "Bimble Stabilizer",
 
   "creativetab.bimble_craft_tab": "Bimble Craft"
 }

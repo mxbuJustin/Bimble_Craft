@@ -7,6 +7,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.mxbujstn.bimble_craft.BimbleCraft;
 import net.mxbujstn.bimble_craft.item.custom.BimbleOreDetectorItem;
+import net.mxbujstn.bimble_craft.item.custom.ModArmorItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -37,9 +38,11 @@ public class ModItems {
             () -> new ShovelItem(ModToolTiers.Bimble, 2, 1,new Item.Properties()));
     public static final RegistryObject<Item> BIMBLE_HOE = ITEMS.register("bimble_hoe",
             () -> new HoeItem(ModToolTiers.Bimble, 0, 0,new Item.Properties()));
+    public static final RegistryObject<Item> BIMBLE_SCYTHE = ITEMS.register("bimble_scythe",
+            () -> new SwordItem(ModToolTiers.Bimble, 12, -3.5f,new Item.Properties()));
 
     public static final RegistryObject<Item> BIMBLE_HELMET = ITEMS.register("bimble_helmet",
-            () -> new ArmorItem(ModArmorMaterials.BIMBLE, ArmorItem.Type.HELMET,new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.BIMBLE, ArmorItem.Type.HELMET,new Item.Properties()));
     public static final RegistryObject<Item> BIMBLE_CHESTPLATE = ITEMS.register("bimble_chestplate",
             () -> new ArmorItem(ModArmorMaterials.BIMBLE, ArmorItem.Type.CHESTPLATE,new Item.Properties()));
     public static final RegistryObject<Item> BIMBLE_LEGGINGS = ITEMS.register("bimble_leggings",

@@ -1,4 +1,4 @@
-// 1.20.1	2025-02-01T22:36:14.653544	Item Models: bimble_craft
+// 1.20.1	2025-02-02T17:48:39.2057958	Item Models: bimble_craft
 16690ca58fbc281504bade19d743b6163f9a08ac assets/bimble_craft/models/item/bimble_apple.json
 340f6560dce22583117de54d458c148d42fe8cff assets/bimble_craft/models/item/bimble_axe.json
 841ab24f4fa657b48ec0a7ce9916c743a1e3872e assets/bimble_craft/models/item/bimble_boots.json
@@ -49,6 +49,7 @@ a6fa5ee4fcb15b68fddc18a7f72eec098fe5234f assets/bimble_craft/models/item/bimble_
 9b2c54d2b383cab9e5fee3464915cac21a203a07 assets/bimble_craft/models/item/bimble_leggings_quartz_trim.json
 5c62a788e5845def86b6c5642ce14f83cea20088 assets/bimble_craft/models/item/bimble_leggings_redstone_trim.json
 33df41dcc1c9e256553e48530ede27ae0d8124cf assets/bimble_craft/models/item/bimble_pickaxe.json
+1dd068aa724dea04ae6eaa4ac1f260c30cf2d75d assets/bimble_craft/models/item/bimble_scythe.json
 36989e9c72c636c6bb7f3ddd2c8d34fa3b352af4 assets/bimble_craft/models/item/bimble_shovel.json
 335db68be7bae104145597ffd46e39b3984a382d assets/bimble_craft/models/item/bimble_sword.json
 c7cfdf342ff8694c1d5980e3e4c14b2c4dff58c5 assets/bimble_craft/models/item/netherite_stick.json

@@ -21,6 +21,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.BIMBLE_BLOCK.get());
         this.dropSelf(ModBlocks.RAW_BIMBLE_BLOCK.get());
         this.dropSelf(ModBlocks.BIMBLE_SOUND_BLOCK.get());
+        this.dropSelf(ModBlocks.STABILZER.get());
 
         this.add(ModBlocks.BIMBLE_ORE.get(),
             block -> createOreDrop(ModBlocks.BIMBLE_ORE.get(), ModItems.RAW_UNSTABLE_BIMBLE_ORE.get()));

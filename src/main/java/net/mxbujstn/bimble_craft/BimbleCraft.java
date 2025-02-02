@@ -1,6 +1,7 @@
 package net.mxbujstn.bimble_craft;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -13,9 +14,13 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.mxbujstn.bimble_craft.block.ModBlocks;
+import net.mxbujstn.bimble_craft.block.entity.ModBlockEntities;
 import net.mxbujstn.bimble_craft.item.ModCreativeModeTabs;
 import net.mxbujstn.bimble_craft.item.ModItems;
 import net.mxbujstn.bimble_craft.item.custom.BimbleOreDetectorItem;
+import net.mxbujstn.bimble_craft.loot.ModLootModifiers;
+import net.mxbujstn.bimble_craft.screen.ModMenuTypes;
+import net.mxbujstn.bimble_craft.screen.StabilizerScreen;
 import org.slf4j.Logger;
 
 @Mod(BimbleCraft.MODID)
@@ -34,6 +39,11 @@ public class BimbleCraft
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
+
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
 
 
         modEventBus.addListener(this::commonSetup);
@@ -70,7 +80,7 @@ public class BimbleCraft
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-
+            MenuScreens.register(ModMenuTypes.STABILIZER_MENU.get(), StabilizerScreen::new);
         }
     }
 
